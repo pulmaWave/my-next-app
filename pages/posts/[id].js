@@ -26,7 +26,7 @@ export const getStaticPaths = async () => {
 
   return {
     paths,
-    fallback: false, // bat ky path nao khong duoc return boi getStaticPaths se toi trang 404
+    fallback: false, // bat ky path nao not return boi getStaticPaths se toi page404
   };
 };
 
