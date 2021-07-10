@@ -2,9 +2,10 @@ import { getPostById, getPostIds } from "../../lib/post.js";
 import Card from "react-bootstrap/Card";
 import Link from "next/link";
 import Container from "react-bootstrap/Container";
+import Layout from "../components/Layout.js";
 const post1 = ({ post }) => {
   return (
-    <div>
+    <Layout>
       <Container>
         <Card key={post.id} className="my-3 shadow">
           <Card.Body>
@@ -16,7 +17,7 @@ const post1 = ({ post }) => {
           </Card.Body>
         </Card>
       </Container>
-    </div>
+    </Layout>
   );
 };
 

@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <Layout>
-      <Jumbotron>
+      <Jumbotron className="p-3" style={{backgroundColor: "#d2d2d2"}}>
         <h1>Hello, world!</h1>
         <p>This is my Next app!</p>
         <p>

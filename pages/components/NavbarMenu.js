@@ -6,7 +6,7 @@ import Link from "next/link";
 const NavbarMenu = () => {
   return (
     <Navbar bg="dark" variant="dark" className="px-3">
-      <Container>
+      <Container className="px-3">
         <Link href="/" passHref>
           <Navbar.Brand>My Next App</Navbar.Brand>
         </Link>
